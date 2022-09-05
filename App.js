@@ -11,9 +11,6 @@ import IconButton from "./utils/IconButton";
 import { Color } from "./utils/colors";
 import Map from "./src/permissions/Map";
 import FavoritesContextProvider from "./store/context/favorite-context";
-// import LoginScreen from "./src/authentication/screen/LoginScreen";
-// import SignUpScreen from "./src/authentication/screen/SignUpScreen";
-// import WelcomeScreen from "./src/authentication/screen/WelcomeScreen";
 
 // const Drawer = createDrawerNavigator();
 // function DrawerNavigator() {
@@ -24,56 +21,6 @@ import FavoritesContextProvider from "./store/context/favorite-context";
 // }
 
 const Stack = createNativeStackNavigator();
-
-// function AuthStack() {
-//   return (
-//     <Stack.Navigator
-//       screenOptions={{
-//         headerStyle: { backgroundColor: Color.primary70 },
-//         headerTintColor: "white",
-//         contentStyle: { backgroundColor: Color.gray700 },
-//       }}
-//     >
-//       <Stack.Screen
-//         name="Login"
-//         component={LoginScreen}
-//         options={{ title: "Login" }}
-//       />
-
-//       <Stack.Screen
-//         name="Signup"
-//         component={SignUpScreen}
-//         options={{ title: "Sign Up" }}
-//       />
-//     </Stack.Navigator>
-//   );
-// }
-
-// function AuthenticatedStack() {
-//   return (
-//     <Stack.Navigator
-//       screenOptions={{
-//         headerStyle: { backgroundColor: Color.primary70 },
-//         headerTintColor: "white",
-//         contentStyle: { backgroundColor: Color.gray700 },
-//       }}
-//     >
-//       <Stack.Screen
-//         name="Welcome"
-//         component={WelcomeScreen}
-//         options={{ title: "Wel Come" }}
-//       />
-//     </Stack.Navigator>
-//   );
-// }
-
-// function Navigation(){
-//   return(
-//     <NavigationContainer>
-//       <AuthStack />
-//     </NavigationContainer>
-//   )
-// }
 
 export default function App() {
   return (
